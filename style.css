@@ -10,12 +10,12 @@
     height: 170vh;
     background-color:#F9EAD6; /* Use the provided background color or any other preferred color */
   }
-  
+  /* Container styles */
   .container {
     background-color: #f5f5f5;
     border: 8px;
     padding: 20px;
-    max-width: 400px;
+    max-width: 600px;
     margin: 0 auto;
     border-radius: 14px;
   }
@@ -43,14 +43,19 @@
   
   h1 {
     font-size: 2.5rem; /* Adjust based on your design */
+    text-align: center;
+    font-style: inherit;
   }
   
   h2 {
     font-size: 1.5rem; /* Adjust based on your design */
+    color:#C39C6B ;
+    font-weight: bolder;
   }
   
   h3 {
     font-size: 1.2rem; /* Adjust based on your design */
+    color:#7C3E0D;
   }
   
   /* Paragraph styles */
@@ -76,5 +81,17 @@
   
   .attribution a {
     color: #6C5CE7; /* Use the link color from the style guide */
+  }
+
+  table {
+    border-collapse: collapse;
+    
+    justify-content: center;
+  }
+
+  td {
+    padding-right:250px; /* Adjust this value as needed to increase or decrease the spacing */
+    border-bottom:1px solid rgb(110, 103, 103); /* Adding borders for clarity */;
+    
   }
   
