@@ -95,3 +95,62 @@
     
   }
   
+
+  /* Add this media query at the end of your CSS */
+@media only screen and (max-width: 600px) {
+    /* Body styles */
+    body {
+      height: auto;
+    }
+  
+    /* Container styles */
+    .container {
+      width: 90%;
+      margin: 0 auto;
+    }
+  
+    /* Image styles */
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
+  
+    /* Heading styles */
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.3rem;
+    }
+  
+    h3 {
+      font-size: 1.1rem;
+    }
+  
+    /* Paragraph styles */
+    p {
+      font-size: 0.9rem;
+    }
+  
+    /* List styles */
+    ul, ol {
+      padding-left: 20px;
+    }
+  
+    /* Table styles */
+    table {
+      width: 100%;
+    }
+  
+    td {
+      padding-right: 10px;
+    }
+  
+    /* Attribution styles */
+    .attribution {
+      margin-top: 20px;
+    }
+  }
+  
